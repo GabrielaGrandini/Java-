@@ -46,7 +46,6 @@ public class Ex21
 	           t3 = t3 + 1;
 	       } 
 	       if( cabelos == 'R' && olhos != 'A') {
-	           System.out.println("Passou!!!");
 	           t4 = t4 + 1;
 	       }
 	       //buffer limpeza
