@@ -37,7 +37,7 @@ public class Ex35
 	        i++;
 	        ler.nextLine();
 	        
-	    }  while ( i <= 1 );
+	    }  while ( i <= 5 );
 	    
 	    System.out.println("Valor total " + p1);
 	    
