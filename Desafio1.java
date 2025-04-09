@@ -52,6 +52,8 @@ public class Desafio1
 	            System.out.println("Empate: Ciclano e Jussara");
 	            }else if (voto1 < voto3 && voto2 > voto3){
 	           System.out.println("O vencedor das eleições foi Jussara!");
+	            }else if (voto1 == voto2 && voto2 == voto3){
+	           System.out.println("Todos os canditados empataram!");
 	            }
 	    
 	     ler.close();
