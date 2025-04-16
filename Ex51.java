@@ -19,7 +19,7 @@ public class Ex51
 	    Scanner ler = new Scanner (System.in);
  	    Random random = new Random();
  	    int[] num =  new int[10];
- 	    int menor = Integer.MAX_VALUE, maior=0, soma = 0;
+ 	    double menor = Integer.MAX_VALUE, maior=0, soma = 0;
  	    double  media;
  	    
  	     System.out.println("Estes são os elementos gerados: ");
@@ -45,7 +45,7 @@ public class Ex51
     	} 
     	
 		 
-		 media =  soma / num.length;
+		 media =  soma / 10;
 		 System.out.println("Esta é a média dos vetores: " + media);
 		 System.out.println("Este é o menor número: " + menor);
 		 System.out.println("Este é o maior número: " + maior);
