@@ -28,11 +28,13 @@ public class Ex50
 		    if (total > 1200) {
 		        imposto = total * 2.5;
 		        impostor = imposto + total;
+		        System.out.println("O valor total do imposto é: R$" +imposto);
 		        System.out.println("O valor total a pagar pelo produto com imposto é: R$" + impostor);
 		        System.out.println("O valor total a pagar pelo produto sem imposto é: R$" + total);
 		    } else {
 		        imposto = total * 0.8;
 		        impostor = imposto + total;
+		        System.out.println("O valor total do imposto é: R$" +imposto);
 		        System.out.println("O valor total a pagar pelo produto é: R$" + impostor);
 		        System.out.println("O valor total a pagar pelo produto sem imposto é: R$" + total);
 		    }
